@@ -1,0 +1,13 @@
+ double basemaior, basemenor, altura, area;
+      Console.WriteLine("digite base maior: ");
+      basemaior = double.Parse (Console.ReadLine ());
+     
+      Console.WriteLine("digite base menor: ");
+      basemenor = double.Parse (Console.ReadLine ());
+     
+      Console.WriteLine("digite altura: ");
+      altura = double.Parse (Console.ReadLine ());
+     
+      area = (basemaior + basemenor)/2 * altura;
+     
+      Console.WriteLine ("A area: é " + area);
