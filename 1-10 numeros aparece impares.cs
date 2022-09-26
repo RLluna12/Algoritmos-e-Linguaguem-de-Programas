@@ -10,7 +10,7 @@ namespace ConsoleApp8
     {
         static void Main(string[] args)
         {
-            int []v= new int[10], impar;
+            int []v= new int[10];
 
             for (int i = 0; i < 10; i++)
             {
